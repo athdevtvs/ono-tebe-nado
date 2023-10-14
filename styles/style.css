@@ -4,7 +4,7 @@ body {
 
 .header {
   display: grid;
-  grid-template-columns: 2.5fr 2.13fr 1fr;
+  grid-template-columns: 2.5fr 2.13fr 1.02fr;
   grid-template-rows: 100%;
   align-items: center;
   height: 109px;
