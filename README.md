@@ -1,1 +1,1 @@
-git@github.com:athdevtvs/ono-tebe-nado.git
+https://github.com/athdevtvs/ono-tebe-nado.git
