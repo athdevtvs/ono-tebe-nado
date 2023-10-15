@@ -140,23 +140,23 @@ body {
 }
 
 .cover__description-text {
-  width: 100%;
+  /*width: 100%;*/
   color: #fff;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 16px;
+  word-spacing: 17px;
 }
 
 .button {
-  margin: 0 50px 0 78px;
+  margin: 0 50px 0 75px;
   align-items: center;
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid #fff;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   color: #fff;
   cursor: pointer;
   display: inline-flex;
@@ -175,4 +175,99 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+.lots {
+  margin: 0 50px 181px 50px;
+}
+
+.lots__heading {
+  margin: 0 0 27px 40px;
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-link {
+}
+
+.lots__card-list {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-content: center;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  height: 100%;
+  width: 430px;
+  min-height: 450px;
+  flex-grow: 1;
+  /*border: 1px solid #fd24af;*/
+}
+
+.card__title {
+  display: flex;
+
+  padding: 50px 40px 0 40px;
+  color: #fff;
+
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  display: flex;
+
+  color: #641f1f;
+  padding: 0 40px 50px 40px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  display: flex;
+  flex-direction: column;
+  gap: 202px;
+  justify-content: space-around;
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+  justify-content: space-around;
+}
+
+.lots__look-more-link {
+  margin-left: 40px;
+  color: #000;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
 }
