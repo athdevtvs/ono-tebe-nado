@@ -20,7 +20,8 @@ body {
 }
 
 .header__links-list-item {
-  list-style: "○";
+  /*list-style: "○";*/
+  list-style: circle;
   list-style-position: inside;
 }
 
@@ -29,7 +30,7 @@ body {
 }
 
 .header__link {
-  padding-left: 7px;
+  /*padding-left: 7px;*/
   color: #000;
   font-size: 18px;
   line-height: 1.2;
@@ -63,17 +64,31 @@ body {
 }
 
 .cover {
+  position: relative;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: left top;
   /*background-size: 94% auto;*/
-  background-size: 100% 92%;
+  background-size: 100%;
+  z-index: -1;
+  margin-bottom: 180px;
 }
 
 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC)
+    repeat scroll transparent\9; /* ie fallback png background image */
+  z-index: 0;
+  /*background-size: cover;*/
 }
 
 .cover__title {
+  position: relative;
   width: 100%;
   color: #fff;
   font-family: Raleway, sans-serif;
@@ -81,6 +96,7 @@ body {
   font-size: 100px;
   letter-spacing: 30px;
   text-transform: uppercase;
+  z-index: 1;
   /*color: #fff;
     font-family: 'EB Garamond', serif;
     font-weight: 400;
@@ -118,7 +134,9 @@ body {
 }
 
 .cover__description {
-  padding: 130px 0 62px 422px;
+  position: relative;
+  z-index: 1;
+  padding: 135px 0 50px 422px;
 }
 
 .cover__description-text {
@@ -133,7 +151,7 @@ body {
 }
 
 .button {
-  margin: 0 50px 50px 77px;
+  margin: 0 50px 0 77px;
   align-items: center;
   text-transform: uppercase;
   background-color: transparent;
@@ -147,10 +165,10 @@ body {
   font-weight: 400;
   height: 52px;
   justify-content: center;
-  line-height: 24px;
+  line-height: normal;
   min-width: 257px;
   outline: 0;
-  padding: 0 17px;
+  padding: 12px 32px;
   text-align: center;
   text-decoration: none;
   transition: all 0.3s;
