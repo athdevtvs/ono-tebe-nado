@@ -10,7 +10,7 @@ body {
   grid-template-rows: 100%;
   align-items: center;
   height: 109px;
-  margin: 92px 49px 0 51px;
+  margin: 92px 49px 92px 51px;
 }
 
 .header__links-list {
@@ -60,4 +60,101 @@ body {
   border-bottom: 1px solid #000;
   padding-bottom: 0px;
   text-decoration: none;
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  /*background-size: 94% auto;*/
+  background-size: 100% 92%;
+}
+
+.overlay {
+}
+
+.cover__title {
+  width: 100%;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+  /*color: #fff;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1;*/
+}
+
+.accent-span {
+  display: block;
+}
+
+.aligned-text {
+  padding: 165px 50px 20px 50px;
+  line-height: 115px;
+}
+
+.aligned-text_center {
+  text-align: center;
+  padding: 0 50px 20px 50px;
+  line-height: 100px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  padding: 0 50px 0 50px;
+  line-height: 100px;
+}
+
+.ls60 {
+  letter-spacing: 60px;
+}
+
+.lsnull {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  padding: 130px 0 62px 422px;
+}
+
+.cover__description-text {
+  width: 100%;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 17px;
+}
+
+.button {
+  margin: 0 50px 50px 77px;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  height: 52px;
+  justify-content: center;
+  line-height: 24px;
+  min-width: 257px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
