@@ -87,24 +87,24 @@
   text-transform: uppercase;
 }
 
-.accent-span {
+.aligned-text-span {
   display: block;
 }
 
 .aligned-text {
   padding: 165px 50px 20px 50px;
-  line-height: 115px;
+  line-height: 1.2;
 }
 
 .aligned-text_center {
   padding: 0 50px 20px 50px;
-  line-height: 100px;
+  line-height: 0.9;
   text-align: center;
 }
 
 .aligned-text_right {
   padding: 0 50px 0 50px;
-  line-height: 100px;
+  line-height: 1.1;
   text-align: right;
 }
 
@@ -119,7 +119,7 @@
 .cover__description {
   position: relative;
   z-index: 1;
-  padding: 135px 0 50px 422px;
+  padding: 131px 0 50px 422px;
 }
 
 .cover__description-text {
@@ -127,7 +127,7 @@
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.4;
   text-transform: uppercase;
   word-spacing: 17px;
 }
@@ -215,7 +215,7 @@
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 1.2;
   text-decoration: none;
   text-decoration-line: none;
   text-transform: uppercase;
@@ -234,7 +234,7 @@
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 120%; /* 24px */
+  line-height: 1.2;
 }
 
 .card_type_film {
